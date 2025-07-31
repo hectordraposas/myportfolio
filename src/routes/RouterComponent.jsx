@@ -4,7 +4,7 @@ import AboutPage from "../pages/AboutPage";
 import ProjectsPage from "../pages/ProjectsPage";
 const RouterComponent = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/myportfolio">
       <Routes>
         <Route path="/" element={<HomePage />}></Route>
         <Route path="about" element={<AboutPage />}></Route>
